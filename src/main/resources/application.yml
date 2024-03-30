@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jwtAuth
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwt_auth
+    username: root
+    password: ''
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: 142426374995472ggdhjsddysyehbnsdje878394438hds77932094832298487232jfdjncx
